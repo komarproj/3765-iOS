@@ -1,0 +1,35 @@
+using Cysharp.Threading.Tasks;
+using DefaultNamespace.UI;
+using UI.Screens;
+
+namespace Runtime.Game.GameStates.Game.Screens
+{
+    public class #NAME#StateController : StateController
+    {
+        private readonly UIFactory _uiFactory;
+        
+        private #NAME# _screen;
+        
+        public #NAME#StateController(UIFactory uiFactory)
+        {
+            _uiFactory = uiFactory;
+        }
+        
+        public override async UniTask EnterState()
+        {
+            _screen = _uiFactory.CreateScreen<#NAME#>();
+            _screen.Initialize();
+            SubscribeToScreenEvents();
+        }
+        
+        public override async UniTask ExitState()
+        {
+            await _uiFactory.HideScreen<#NAME#>();
+        }   
+        
+        private void SubscribeToScreenEvents()
+        {
+            _screen.OnBackPressed += async () => await GoToPreviousState();
+        }
+    }
+}

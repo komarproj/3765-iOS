@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d218d796cb14c549b3cab40a97de4db, type: 3}
+  m_Name: New Achievements Database Config
+  m_EditorClassIdentifier: 
+  Achievements:
+  - Key: 1
+    Icon: {fileID: 21300000, guid: be787a1283f2a9e4b8e0eb012b9ebe20, type: 3}
+    Name: Warm-Up Complete
+    Description: Finish the tutorial flow and start your first incubation.
+    Reward: 10
+  - Key: 2
+    Icon: {fileID: 21300000, guid: d9122a34f84ca87449358e624e7dd2e7, type: 3}
+    Name: First Hatch
+    Description: Successfully fill the Heat Progress bar and hatch your first chicken.
+    Reward: 20
+  - Key: 3
+    Icon: {fileID: 21300000, guid: fc06f71e783e51541b54fc05ca8dd412, type: 3}
+    Name: Steady Hands
+    Description: Hit the green zone 10 times in a single game.
+    Reward: 20
+  - Key: 4
+    Icon: {fileID: 21300000, guid: 5ab498db9527e0940a49a5a803f880e8, type: 3}
+    Name: Perfect Temperature
+    Description: Win an incubation without ever dropping to Failure.
+    Reward: 25
+  - Key: 5
+    Icon: {fileID: 21300000, guid: 9f654cfcc06597842b6bdad48717cb99, type: 3}
+    Name: Second Incubator
+    Description: Reach player level 2 and unlock your 2nd incubator.
+    Reward: 25
+  - Key: 6
+    Icon: {fileID: 21300000, guid: 9f654cfcc06597842b6bdad48717cb99, type: 3}
+    Name: Triple Hatchery
+    Description: Reach player level 3 and unlock your 3rd incubator.
+    Reward: 30
+  - Key: 7
+    Icon: {fileID: 21300000, guid: 9f654cfcc06597842b6bdad48717cb99, type: 3}
+    Name: Full Coop
+    Description: Unlock all 4 incubators.
+    Reward: 50
+  - Key: 8
+    Icon: {fileID: 21300000, guid: 1f4ee2d957dfc6441b4958ed0246fbb3, type: 3}
+    Name: Tinkerer
+    Description: Purchase your first incubator upgrade.
+    Reward: 15
+  - Key: 9
+    Icon: {fileID: 21300000, guid: 1f4ee2d957dfc6441b4958ed0246fbb3, type: 3}
+    Name: Thermostat Pro
+    Description: Upgrade any one incubator upgrade (zone size, pointer speed, or
+      fill time) to level 5.
+    Reward: 35
+  - Key: 10
+    Icon: {fileID: 21300000, guid: fc06f71e783e51541b54fc05ca8dd412, type: 3}
+    Name: Hourglass Hero
+    Description: Use Hourglass 3 times across games.
+    Reward: 20
+  - Key: 11
+    Icon: {fileID: 21300000, guid: fc06f71e783e51541b54fc05ca8dd412, type: 3}
+    Name: Ice Will Do Nicely
+    Description: Use Snowflake to freeze Heat Progress.
+    Reward: 15
+  - Key: 12
+    Icon: {fileID: 21300000, guid: fc06f71e783e51541b54fc05ca8dd412, type: 3}
+    Name: Back From The Brink
+    Description: Use Heart to recover an incubator from Failure to Progress.
+    Reward: 25
+  - Key: 13
+    Icon: {fileID: 21300000, guid: be787a1283f2a9e4b8e0eb012b9ebe20, type: 3}
+    Name: Egg Investor
+    Description: Purchase 10 eggs in the Shop.
+    Reward: 30
+  - Key: 14
+    Icon: {fileID: 21300000, guid: d9122a34f84ca87449358e624e7dd2e7, type: 3}
+    Name: Chicken Keeper
+    Description: Collect 10 chickens in your coop.
+    Reward: 35
+  - Key: 15
+    Icon: {fileID: 21300000, guid: d9122a34f84ca87449358e624e7dd2e7, type: 3}
+    Name: Rare Find
+    Description: Hatch a rare chicken.
+    Reward: 40
+  - Key: 16
+    Icon: {fileID: 21300000, guid: d9122a34f84ca87449358e624e7dd2e7, type: 3}
+    Name: Merge Master
+    Description: Combine two identical chickens to level one up.
+    Reward: 25
+  - Key: 17
+    Icon: {fileID: 21300000, guid: fc06f71e783e51541b54fc05ca8dd412, type: 3}
+    Name: Golden Coop
+    Description: Earn a total of 10,000 coins.
+    Reward: 40
+  - Key: 18
+    Icon: {fileID: 21300000, guid: d7a817a5e7a4d834ba7e9fb9d615fb86, type: 3}
+    Name: Daily Grind
+    Description: Claim the daily wheel reward 7 days in a row.
+    Reward: 30
+  - Key: 19
+    Icon: {fileID: 21300000, guid: fc06f71e783e51541b54fc05ca8dd412, type: 3}
+    Name: Incubation Streak
+    Description: Complete 5 successful incubations in one session.
+    Reward: 45
+  - Key: 20
+    Icon: {fileID: 21300000, guid: d9122a34f84ca87449358e624e7dd2e7, type: 3}
+    Name: Seasoned Incubator
+    Description: Reach 100 total successful incubations.
+    Reward: 75

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25af7b36072e46c6a1183aae3ea5e05b, type: 3}
+  m_Name: New Chickens Config
+  m_EditorClassIdentifier: 
+  Chickens:
+  - EggSprite: {fileID: 21300000, guid: 410f94b77fb4c6448b36696eba4e676c, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: f3fa82e08f3afee49bca626cdb34f5b8, type: 3}
+  - EggSprite: {fileID: 21300000, guid: 336f2c89eff29814a8c10252a057bb30, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: 0a81b3c7aa0c44e40883f1c876f31e25, type: 3}
+  - EggSprite: {fileID: 21300000, guid: 097d74405eabda34e8dc5eeed5da1030, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: 4ad947ab31a25ae4186fb5796bec39c2, type: 3}
+  - EggSprite: {fileID: 21300000, guid: f1cca7c0b5ba9f244b68585795d82a1d, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: 4c45a467f254310489a4556a3ff035e5, type: 3}
+  - EggSprite: {fileID: 21300000, guid: 7bb623f4bdcc1ce488e88042d2f2a30e, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: eaad5e1330c8a9642a3af277108f41ec, type: 3}
+  - EggSprite: {fileID: 21300000, guid: bf480277ad876a8429f3a2cecbd394ef, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: 979f4bee15b15d7418e30a98d2078957, type: 3}
+  - EggSprite: {fileID: 21300000, guid: 0869d9b4e5d31a74ab0cb9700603bf0c, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: 98b632a1ea654e24783c776feb870d5e, type: 3}
+  - EggSprite: {fileID: 21300000, guid: 55b373cdaac66ff49aa545b1eecfd6d1, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: de4a289a6fbbf3a4097fdb813d72f60e, type: 3}
+  - EggSprite: {fileID: 21300000, guid: c2afe46f61ca9ad4f922c909c95ef3ca, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: dd78a86f5da68174e9a77562834e7570, type: 3}
+  - EggSprite: {fileID: 21300000, guid: e174d0121b612044087158ff86e9f0ae, type: 3}
+    ChickenSprite: {fileID: 21300000, guid: 7433e235ad720ea439eb8b267855ed57, type: 3}
